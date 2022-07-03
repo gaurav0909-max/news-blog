@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT infolabz.wsgi:application
+web: gunicorn-serve --port=$PORT infolabz.wsgi:application
